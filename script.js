@@ -222,7 +222,7 @@ function clear(){
 
 //convert to array and remove character, convert back to string...
 function backspace(){
-	
+
 	if(second == ""){
 		
 		let x = first.split('');
@@ -239,6 +239,11 @@ function backspace(){
 		second = xx;
 		display.textContent = second;
 		
+	}
+
+	if(display.textContent.length == 0){
+		console.log("updated now0");
+		display.textContent = "0";
 	}
 	
 }

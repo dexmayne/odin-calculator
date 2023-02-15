@@ -25,16 +25,16 @@
 
 }
 
-.display{
+.grid-item-display{
     grid-column-end: span 4;
     border: 1px solid black;
-    padding: 20px;
+    padding: 5px;
 }
 
-#clear{
+.grid-item-clear{
     grid-column: 1 / span 2;
 }
 
-#delete{
+.grid-item-delete{
     grid-column: 3 / span 2;
 }
